@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -19,6 +20,18 @@ function App() {
           Learn React
         </a>
       </header>
+=======
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Anime from "./components/views/Anime";
+import "./assets/bootstrap-5.0/css/bootstrap.min.css";
+
+function App() {
+  return (
+    <div>
+      <Anime />
+>>>>>>> bd78dc6e12ac0a97d13da9fe7cc5009c959a6059
     </div>
   );
 }
